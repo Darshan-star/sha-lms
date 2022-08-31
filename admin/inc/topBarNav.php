@@ -40,12 +40,6 @@ Navbar -->
             </a>
           </li>
           <li class="nav-item">
-            <!-- admin/?page=system_info -->
-            <a class="nav-link"href="<?php echo base_url.'' ?>" role="button">
-            <i class="fas fa-cog"></i>
-            </a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link"  href="javascript:void(0)" onclick="location.replace('<?php echo base_url.'/classes/Login.php?f=logout' ?>')" role="button">
             <i class="fas fa-sign-out-alt"></i>
             </a>
