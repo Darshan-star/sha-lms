@@ -6,9 +6,9 @@
 -- Generation Time: Aug 21, 2022 at 08:28 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.27
-
+ 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
+START TRANSACTION; 
 SET time_zone = "+00:00";
 
 
@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `academic_year` (
-  `id` int(30) NOT NULL,
+  `id` int(30) NOT NULL, 
   `sy` varchar(150) NOT NULL,
   `status` tinyint(5) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -43,7 +43,7 @@ INSERT INTO `academic_year` (`id`, `sy`, `status`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `class`
+-- Table structure for table `class` 
 --
 
 CREATE TABLE `class` (
@@ -115,7 +115,7 @@ CREATE TABLE `course` (
   `id` int(30) NOT NULL,
   `course` varchar(250) NOT NULL,
   `description` text DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4; 
 
 --
 -- Dumping data for table `course`
